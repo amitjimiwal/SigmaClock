@@ -1,0 +1,91 @@
+*{
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: 'Montserrat', sans-serif;
+}
+/* RESPONSIVE USING MEDIA QUERIES */
+@media (max-width: 300px) {
+      html{
+            font-size: 14px;
+      }
+}
+
+@media (max-width: 200px) {
+      html{
+            font-size: 12px;
+      }
+}
+
+
+body{
+      width:100%;
+      height: 100vh;
+   display: flex;
+   flex-direction: column;
+   /* align-items: center */
+}
+
+.clock-heading{
+      background-color: #12121c;
+      height:auto;
+      width: 100%;
+      text-align: center;
+      padding:1em;
+}
+.clock-heading h1{
+      color: white;
+}
+.digital-clock{
+      background-color: #2e2e45;
+      height:95%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.time{
+      /* font-size: 3rem; */
+      min-width: 50%;
+      min-height:50%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      
+}
+.left-side{
+      font-weight: bolder;
+      font-size: 4rem;
+      color: rgb(243, 241, 245);
+}
+.mid{
+      font-size: 4rem; 
+      font-weight: bolder;
+      color: rgb(243, 179, 179);
+}
+.right-side{
+  align-self:center;
+}
+.right-top{
+      align-self: baseline;
+   font-size: 3rem;
+   font-weight: bold;
+   color:aqua
+}
+.right-bottom{
+      font-size: 1.3em;
+      color:antiquewhite
+}
+#seconds{
+      font-size: 2rem;
+      color:rgb(153, 192, 179);
+}
+
+.footer{
+      text-align: center;
+      padding-bottom: 1rem;
+      background-color: #2e2e45;
+      color: white;
+      font-weight: bold;
+}
